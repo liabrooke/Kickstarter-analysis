@@ -1,7 +1,7 @@
 # Kickstarting with Excel
 ## Overview of Project
 ### Purpose
-###### Louise enlisted our help as she wants to launch a fundraising campaign for her new play, “Fever”. We had to uncover trends in the data sent to us, piecing together potential factors that contributed to successful campaigns in the past. With our insights and guidance, she’ll plan and launch a campaign with a high chance of success. 
+###### Louise enlisted our help as she wants to launch a fundraising campaign for her new play, “Fever”. We had to uncover trends in the data sent to us, piecing together potential factors that contributed to successful campaigns in the past. We analyzed many factors of past campaigns such as the country they were launched in, the category of campaign, goal amount, average donation, and when each campaign was launched and ended. With our insights and guidance, she’ll plan and launch her own campaign with a high chance of success. 
 ## Analysis and Challenges
 ### Analysis of Outcomes Based on Launch Date
 ###### There are many categories included in the Kickstarter worksheets which is accumulating to an overwhelming amount of data. Since Louise wants to write & launch a play, part of the theater category, we created a pivot table to narrow down the data. With this subset of data, we inferred that the month the fundraising campaign was launched did influence its outcome. To better display the data for Louise, we then created a line chart with number of plays on the vertical axis and months of the year on the horizontal axis. 
