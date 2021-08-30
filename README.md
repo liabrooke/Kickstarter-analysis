@@ -1,2 +1,20 @@
-#kickstarter-analysis 
-##Uncovering trends from Kickstarter data
+# Kickstarting with Excel
+## Overview of Project
+### Purpose
+###### Louise enlisted our help as she wants to launch a fundraising campaign for her new play, “Fever”. We had to uncover trends in the data sent to us, piecing together potential factors that contributed to successful campaigns in the past. With our insights and guidance, she’ll plan and launch a campaign with a high chance of success. 
+## Analysis and Challenges
+### Analysis of Outcomes Based on Launch Date
+###### There are many categories included in the Kickstarter worksheets which is accumulating to an overwhelming amount of data. Since Louise wants to write & launch a play, part of the theater category, we created a pivot table to narrow down the data. With this subset of data, we inferred that the month the fundraising campaign was launched did influence its outcome. To better display the data for Louise, we then created a line chart with number of plays on the vertical axis and months of the year on the horizontal axis. 
+### Analysis of Outcomes Based on Goals
+###### We figured that goal amount of the fundraising campaign had an impact on the likelihood of its success rate. Therefore, we broke the goal amounts down in specified ranges. To find the number of columns/projects that met each goal criteria, we used the COUNTIFS formula. After totaling up the total amount of projects for each goal amount using the SUM formula, we could then pull the percentage of successful, failed, and canceled. We did this by dividing the number of each column category by the number of total projects, for each specified range.
+### Challenges and Difficulties Encountered
+###### When analyzing the outcome based on goals, we had to use a new formula, COUNTIFS. While I had no difficulties with the “less than 1000” range, I ran into difficulties once I had to specify the formula to focus on a “greater than __ and less than __” amount. I had to rewrite my code multiple times for it to return an accurate number with no error. Another challenge was formatting the line graphs to depict the information correctly, as I had to edit the data sources and switch the legend entries and labels around. It showed that just because we narrow down some data, that doesn’t mean it’s automatically being presented in an “easier to digest” format. More edits may need to be done to really tell a clear picture. 
+## Results
+### What are two conclusions you can draw about the Outcomes based on Launch Date?
+###### The best months to launch a campaign is in the middle of the year, specifically May, June, and July, with 111, 100, and 87 successful campaigns launched respectively. The worst months are the very end and beginning of the year, with December and November being the worst months with only 37 and 54 successful campaigns launched respectively.
+### What can you conclude about the Outcomes based on Goals?
+###### The campaigns with the highest goal amount of $45,00 or more were the most likely to fail. Campaigns with the smallest goal amount, specifically $1,000 or less, had the highest chance of succeeding at 76%. Stay out of the $25,000 to $35,000 range as it also had a high chance of failing at an unnerving 73-80% fail rate. Keep it below $25,000 ideally. If the play does need to be pricier, keep it in the $35,000 to $45,000 range which had a high 67% success rate compared to lower amount goals. 
+### What are some limitations of this dataset?
+###### There are many factors not accounted for in this dataset. While we were able to analyze the defined numbers given to us, they don’t tell the whole story. Other factors could include marketing, PR, or the specific location the play is going to be launched at. I imagine plays getting launched in bigger cities like LA or New York City would have a higher success rate.
+### What are some other possible tables and/or graphs that we could create?
+###### If we wanted to analyze the distribution of data, such as the mean, median, and standard deviation of campaign goals and amount pledged, we could’ve created a scatter plot or bar graph. We also could’ve created another line chart to depict if the amount of months a campaign has available to fundraise is a factor, as it’s possible that campaigns with quick deadlines don’t have enough time to fully raise the needed amount of money.
